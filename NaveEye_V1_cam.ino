@@ -7,9 +7,9 @@
 #define CAMERA_MODEL_AI_THINKER
 #include "camera_pins.h"
 
-const char* ssid       = "Jai_shree_ram_2.4G";
-const char* password   = "ak@123456";
-const char* serverIP   = "192.168.1.16";
+const char* ssid       = "YOUR_WIFI_SSID";
+const char* password   = "YOUR_WIFI_PASSWORD";
+const char* serverIP   = "YOUR_SERVER_LAN_IP";  // e.g. 192.168.1.x
 const int   serverPort = 8081;
 
 #define LED_PIN 4
