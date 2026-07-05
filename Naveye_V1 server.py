@@ -27,7 +27,7 @@ except ImportError:
     import google.generativeai as genai
 
 # ========== CONFIGURATION ==========
-GEMINI_API_KEY = 'AIzaSyB3BGUoGp3z1Yv-bFjyYUgXJEEgVXPFbVg'
+GEMINI_API_KEY = 'Your_API_KEY'
 genai.configure(api_key=GEMINI_API_KEY)
 vision_model = genai.GenerativeModel('gemini-3.1-flash-lite')
 stt_model    = genai.GenerativeModel('gemini-3.1-flash-lite')
@@ -61,11 +61,11 @@ CAM_PORT  = 8081
 TTS_PORT  = 8082
 
 # SOS Email
-SOS_GMAIL_SENDER   = "Kartik231024@gmail.com"
-SOS_GMAIL_PASSWORD = "ucrq mnqo ssxx oerq"
-SOS_FAMILY_EMAILS  = ["Kartik90790@gmail.com"]
-SOS_DEVICE_NAME    = "Nova"
-SOS_USER_NAME      = "Kartik"
+SOS_GMAIL_SENDER   = "YOUR_EMAIL"
+SOS_GMAIL_PASSWORD = "APP_PASS"
+SOS_FAMILY_EMAILS  = ["YOUR_FAMILY_EMAIL"]
+SOS_DEVICE_NAME    = "NAVE"
+SOS_USER_NAME      = "YOUR_NAME"
 
 # Global state
 esp32S3_client  = None
